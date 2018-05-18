@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice1_Serie2</title>
+        <meta charset="UTF-8">
+
+        <script type="text/javascript">
+
+
+        function surfaceRectangle () {
+          var longueur = prompt ("Quel est la longueur?");
+          var largeur = prompt ("Quel est la largeur?");
+          alert("La surface du rectangle est de:" + (longueur*largeur));
+        }
+
+        function perimetreRectangle () {
+          var stringLongueur = prompt ("Quel est la longueur?");
+          var longueur = Number(stringLongueur);
+          var stringLargeur = prompt ("Quel est la largeur?");
+          var largeur = Number(stringLargeur);
+          alert('Le périmetre du rectangle est de:' + (2 * (longueur + largeur)));
+        }
+
+
+
+
+
+        </script>
+
+    </head>
+
+    <body>
+
+            <button name="valider" id="valider" onclick="surfaceRectangle()">Calculer la surface d'un rectangle</button><br>
+            <button name="valider" id="valider" onclick="perimetreRectangle()">Calculer le prérimètre d'un rectangle</button><br>
+    </body>
+</html>

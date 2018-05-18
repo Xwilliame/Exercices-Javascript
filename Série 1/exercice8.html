@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice_8</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+
+      <script type="text/javascript">
+       function myform(){
+        var age = document.getElementById("age").value;
+        if (age >= 18) {
+          alert ("Vous êtes majeur")
+        }
+        else {
+          alert ("Vous êtes mineur")
+        }
+      }
+      
+      </script>
+
+        <form>
+            <label for="age">Votre âge : </label><input type="text" id="age" name="age"/><br/>
+            <button id="valider" name="valider" onclick="myform()">Valider</button>
+        </form>
+    </body>
+</html>

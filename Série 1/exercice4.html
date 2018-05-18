@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice_4</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript">
+         function myform(){
+          var nom = document.getElementById("nom").value;
+          var prenom = document.getElementById("prenom").value;
+          var ville = document.getElementById("ville").value;
+          alert("Mon Nom: " + nom + "\n" + "Mon Prénom: " + prenom + "\n" + "Ma ville: " + ville );
+        }
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <form>
+            <label for="nom">Nom : </label><input type="text" name="nom" id="nom"/>
+            <label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom"/>
+            <label for="ville">Ville : </label><input type="text" name="ville" id="ville"/>
+            <button name="valider" id="valider" onclick="myform()">Valider</button>
+        </form>
+    </body>
+</html>
